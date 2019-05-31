@@ -26,7 +26,8 @@ for dock_container in docker_containers:
     response = requests.get(Log_URL+dock_container, headers=ticketSysHeaders, verify=False)
     response = response.json()
     data = {dock_container : response}
-    print(data)
+    x = json.dumps(data)
+    print(x)
 
 
 
