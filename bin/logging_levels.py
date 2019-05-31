@@ -2,7 +2,6 @@ import requests
 import json
 
 
-
 #hardcoded variables need to be changed
 ATR_URL = "https://dh-ctrl-rm-atr.atrmywizard360.com/"
 ATR_User = "admin"
@@ -26,7 +25,8 @@ docker_containers = ["ansible","aqe-editor-client","atr-mongo","atr-postgres","a
 for dock_container in docker_containers:
     response = requests.get(Log_URL+dock_container, headers=ticketSysHeaders, verify=False)
     response = response.json()
-    print(response)
+    data = {dock_container : response}
+    print(data)
 
 
 
