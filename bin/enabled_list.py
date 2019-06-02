@@ -6,7 +6,8 @@ docker_containers = ["ansible","aqe-editor-client","atr-mongo","atr-postgres","a
 
 ENABLED = "ENABLED"
 
-enabled = {"ansible" : ENABLED,
+enabled = {"Container" : "Status",
+           "ansible" : ENABLED,
            "aqe-editor-client" : ENABLED,
            "atr-mongo" : ENABLED,
            "atr-postgres" : ENABLED,
