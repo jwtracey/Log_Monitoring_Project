@@ -135,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.logging_levels">
+  <component name="RunManager" selected="Python.enabled_list">
     <configuration name="disabled" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Log_Monitoring_Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -201,8 +201,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.logging_levels" />
         <item itemvalue="Python.enabled_list" />
+        <item itemvalue="Python.logging_levels" />
         <item itemvalue="Python.disabled" />
       </list>
     </recent_temporary>
