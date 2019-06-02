@@ -47,7 +47,6 @@ enabled = {"ansible" : ENABLED,
            "splunk" : ENABLED,
            "ticket-management" : ENABLED}
 enabled = json.dumps(enabled)
-loaded_enabled = json.loads(enabled)
-print(loaded_enabled)
+print(enabled)
 
 
