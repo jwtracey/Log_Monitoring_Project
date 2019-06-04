@@ -4,5 +4,4 @@ docker_containers = ["ansible","aqe-editor-client","atr-mongo","atr-postgres","a
 
 for dock_container in docker_containers:
     response = {dock_container : "ENABLED"}
-    x = json.dumps(response)
-    print(x)
+    print(response)
