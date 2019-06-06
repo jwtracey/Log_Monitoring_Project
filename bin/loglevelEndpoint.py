@@ -1,39 +1,27 @@
-import splunk.appserver.mrsparkle.controllers as controllers #controller- runs py script when a sensor triggers the controller.
-from splunk.appserver.mrsparkle.lib.decorators import expose_page
-import splunk.appserver.mrsparkle.lib.util as util
-import cherrypy
-import os
-import subprocess
-import datetime
-from os.path import isfile as IfFileExists
-import json
-import datetime
-import ConfigParser
 import requests
-from json import dumps as dict_to_json
-from requests.auth import HTTPBasicAuth
-import csv
+import json
 
 
-        SPLUNK_HOME = os.environ['SPLUNK_HOME']
-        Config = ConfigParser.ConfigParser()
-        path = SPLUNK_HOME+"/etc/apps/aaam-atr-v3-controlroom-data/bin/settings.conf"
-        Config.read(path)
+#hardcoded variables need to be changed
+ATR_URL = "https://dh-ctrl-rm-atr.atrmywizard360.com/"
+ATR_User = "admin"
+ATR_Pass = "HYZWL3P48WFBWV1M"
+ATR_data = {'username': ATR_User,'password': ATR_Pass}
+Log_URL = ATR_URL + "atr-gateway/ticket-management/loggers/"
+ATR_auth_URL = ATR_URL + 'atr-gateway/identity-management/api/v1/auth/token'
 
-        # Hit auth endpoint with login details to retrieve token
-        ATR_auth_URL = host + '/atr-gateway/identity-management/api/v1/auth/token'
+ATR_token_headers = {'Content-Type': 'application/json;charset=utf-8','Accept': '*/*'}
+ATR_token_response = requests.post(ATR_auth_URL, data=json.dumps(ATR_data),headers=ATR_token_headers, verify=False)
+ATR_token_response = ATR_token_response.json()
 
-        ATR_data = {'username': username,'password': password}
-        ATR_token_headers = {'Content-Type': 'application/json;charset=utf-8','Accept': '*/*'}
-        ATR_token_response = requests.post(ATR_auth_URL, data=json.dumps(ATR_data),headers=ATR_token_headers, verify=False)
+ATR_token = ATR_token_response['token']
 
+ticketSysHeaders = {'Accept': 'application/json', 'apiToken': ATR_token}
 
-        # Write values to infraConfiguration.csv lookup
-        SPLUNK_HOME = os.environ['SPLUNK_HOME']
-        infraInfoPath = SPLUNK_HOME + "/etc/apps/aaam-atr-v3-controlroom-ui/lookups/infraConfiguration.csv"
-        infraFile = open(infraInfoPath,"w+")
-        infraFile.seek(0)
-        infraFile.write(data)
-        infraFile.truncate()
-        infraFile.close()
+#changing logging levels
 
+Container = ContainerName
+EffectiveLevel = newLogLevel
+
+changeData = {"Name" : Container, "effectiveLevel" : EffectiveLevel}
+response = requests.post(Log_URL+Container, data=json.dumps(changeData), headers=ticketSysHeaders, verify=False)
