@@ -18,7 +18,7 @@ ATR_token = ATR_token_response['token']
 
 ticketSysHeaders = {'Accept': 'application/json', 'apiToken': ATR_token}
 
-#changing logging levels
+#changing logging levels on swagger
 
 Container = ContainerName
 EffectiveLevel = newLogLevel
