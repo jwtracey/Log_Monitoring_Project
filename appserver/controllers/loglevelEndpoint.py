@@ -2,7 +2,7 @@ import requests
 import json
 
 
-#hardcoded variables need to be changed
+#hardcoded variables need to be Changed
 ATR_URL = "https://dh-ctrl-rm-atr.atrmywizard360.com/"
 ATR_User = "admin"
 ATR_Pass = "HYZWL3P48WFBWV1M"
