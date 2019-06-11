@@ -5,3 +5,13 @@ modtime = 1559191117.959311000
 [app/launcher]
 version = 7.2.6
 modtime = 1559191117.961395000
+
+[indexes/logging_levels]
+owner = jwtracey
+version = 7.2.6
+modtime = 1559866910.204732000
+
+[inputs/script%3A%2F%2F%24SPLUNK_HOME%2Fetc%2Fapps%2FLog_Monitoring_Project%2Fbin%2Flogging_levels2.py]
+owner = jwtracey
+version = 7.2.6
+modtime = 1559866912.489030000
