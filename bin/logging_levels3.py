@@ -28,5 +28,3 @@ for dock_container in docker_containers:
     x = json.dumps(data)
     print(x)
 
-
-

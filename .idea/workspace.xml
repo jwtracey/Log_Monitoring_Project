@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f86d75d9-c2ec-4af0-b7a4-9e32e800f40a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bin/logging_levels2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/.idea/bin.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/loglevelEndpoint.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/loglevelchange.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/metadata/local.meta" beforeDir="false" afterPath="$PROJECT_DIR$/metadata/local.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appserver/.idea/appserver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/appserver/.idea/appserver.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appserver/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/appserver/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appserver/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/appserver/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appserver/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/appserver/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appserver/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/appserver/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appserver/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/appserver/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appserver/controllers/loglevelEndpoint.py" beforeDir="false" afterPath="$PROJECT_DIR$/appserver/controllers/loglevelEndpoint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appserver/static/loglevelchange.js" beforeDir="false" afterPath="$PROJECT_DIR$/appserver/static/loglevelchange.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/README" beforeDir="false" afterPath="$PROJECT_DIR$/bin/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/data/ui/nav/default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/default/data/ui/nav/default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/data/ui/views/README" beforeDir="false" afterPath="$PROJECT_DIR$/default/data/ui/views/README" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,61 +26,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/logging_levels.py">
+        <entry file="file://$PROJECT_DIR$/appserver/static/loglevelchange.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/logging_levels2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="13" column="76" selection-start-line="13" selection-start-column="76" selection-end-line="13" selection-end-column="76" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/en_list.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="8" />
+            <state relative-caret-position="195">
+              <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bin/enabled_list.py">
+        <entry file="file://$PROJECT_DIR$/appserver/controllers/loglevelEndpoint.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/default/web.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" selection-start-column="7" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/urllib3/connectionpool.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12075">
-              <caret line="849" column="33" selection-start-line="849" selection-start-column="33" selection-end-line="849" selection-end-column="33" />
+            <state relative-caret-position="146">
+              <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -102,13 +68,18 @@
         <option value="$PROJECT_DIR$/default/web.conf.py" />
         <option value="$PROJECT_DIR$/default/web.conf" />
         <option value="$PROJECT_DIR$/bin/loglevelchange.js" />
+        <option value="$PROJECT_DIR$/appserver/static/logconfigstyles.css" />
+        <option value="$PROJECT_DIR$/default/data/ui/views/LoggingLevelsChange.xml" />
+        <option value="$PROJECT_DIR$/default/data/ui/nav/default.xml" />
+        <option value="$PROJECT_DIR$/appserver/static/loglevelchange.js" />
+        <option value="$PROJECT_DIR$/appserver/controllers/loglevelEndpoint.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="594" />
+    <option name="x" value="159" />
     <option name="y" value="23" />
-    <option name="width" value="846" />
+    <option name="width" value="1260" />
     <option name="height" value="824" />
   </component>
   <component name="ProjectView">
@@ -116,13 +87,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Log_Monitoring_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Log_Monitoring_Project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Log_Monitoring_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Log_Monitoring_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="appserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Log_Monitoring_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Log_Monitoring_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="appserver" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Log_Monitoring_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Log_Monitoring_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="appserver" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Log_Monitoring_Project" type="b2602c69:ProjectViewProjectNode" />
@@ -143,7 +130,51 @@
             <path>
               <item name="Log_Monitoring_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Log_Monitoring_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Log_Monitoring_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Log_Monitoring_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="nav" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Log_Monitoring_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Log_Monitoring_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Log_Monitoring_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Log_Monitoring_Project" type="462c0819:PsiDirectoryNode" />
               <item name="local" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Log_Monitoring_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Log_Monitoring_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Log_Monitoring_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Log_Monitoring_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Log_Monitoring_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Log_Monitoring_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Log_Monitoring_Project" type="b2602c69:ProjectViewProjectNode" />
@@ -154,6 +185,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -172,49 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.loglevelEndpoint">
-    <configuration name="disabled" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Log_Monitoring_Project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin/enabled" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/enabled/disabled.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="en_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Log_Monitoring_Project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/en_list.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.loglevelEndpoint (1)">
     <configuration name="enabled_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Log_Monitoring_Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -257,6 +247,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="logging_levels2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Log_Monitoring_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/logging_levels2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="loglevelEndpoint (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Log_Monitoring_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appserver/controllers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/appserver/controllers/loglevelEndpoint.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="loglevelEndpoint" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Log_Monitoring_Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -280,11 +312,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.loglevelEndpoint (1)" />
+        <item itemvalue="Python.logging_levels2" />
         <item itemvalue="Python.loglevelEndpoint" />
         <item itemvalue="Python.logging_levels" />
         <item itemvalue="Python.enabled_list" />
-        <item itemvalue="Python.en_list" />
-        <item itemvalue="Python.disabled" />
       </list>
     </recent_temporary>
   </component>
@@ -292,19 +324,18 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="594" y="23" width="846" height="824" extended-state="0" />
-    <editor active="true" />
+    <frame x="159" y="23" width="1260" height="824" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22181818" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24697337" />
       <window_info id="Structure" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3298292" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.52894735" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.3298292" />
-      <window_info anchor="bottom" id="Python Console" order="3" weight="0.3298292" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32894737" />
+      <window_info anchor="bottom" id="Python Console" order="3" weight="0.32894737" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="4" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.3298292" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.32894737" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -361,16 +392,9 @@
     <entry file="file://$PROJECT_DIR$/metadata/logging_levels.py" />
     <entry file="file://$PROJECT_DIR$/bin/enabled/disabled.py" />
     <entry file="file://$PROJECT_DIR$/bin/disabled.py" />
-    <entry file="file://$PROJECT_DIR$/bin/logging_levels2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="76" selection-start-line="13" selection-start-column="76" selection-end-line="13" selection-end-column="76" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/default/web.conf.py" />
+    <entry file="file://$PROJECT_DIR$/bin/loglevelEndpoint.py" />
+    <entry file="file://$PROJECT_DIR$/bin/loglevelchange.js" />
     <entry file="file://$PROJECT_DIR$/bin/en_list.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -378,10 +402,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/local/indexes.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/inputs.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/enabled_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/urllib3/connectionpool.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12075">
+        <state relative-caret-position="-97">
           <caret line="849" column="33" selection-start-line="849" selection-start-column="33" selection-end-line="849" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appserver/static/logconfigstyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/default/data/ui/views/LoggingLevelsChange.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/default/data/ui/nav/default.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metadata/local.meta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/default/web.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -395,37 +475,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/default/web.conf.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/default/web.conf">
+    <entry file="file://$PROJECT_DIR$/bin/logging_levels2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/loglevelEndpoint.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+          <caret selection-end-column="15" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/loglevelchange.js">
+    <entry file="file://$PROJECT_DIR$/appserver/static/loglevelchange.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="195">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/enabled_list.py">
+    <entry file="file://$PROJECT_DIR$/appserver/controllers/loglevelEndpoint.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="146">
+          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
         </state>
       </provider>
     </entry>

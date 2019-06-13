@@ -1,0 +1,13 @@
+[indexes/logging_levels2]
+owner = jwtracey
+version = 7.2.6
+modtime = 1560225565.935855000
+
+[inputs/script%3A%2F%2F%24SPLUNK_HOME%2Fetc%2Fapps%2FLog_Monitoring_Project%2Fbin%2Flogging_levels3.py]
+owner = jwtracey
+version = 7.2.6
+modtime = 1560225577.782727000
+
+[views/LoggingLevelsChange]
+version = 7.2.6
+modtime = 1560389447.082697000

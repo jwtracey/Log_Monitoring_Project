@@ -1,0 +1,69 @@
+<dashboard script="loglevelchange.js" stylesheet="logconfigstyles.css">
+  <label>LoggingLevelsChange</label>
+  <row>
+    <panel>
+       <title>Docker Logging Level Force Change</title>
+      <input type="dropdown" id="ContainerName">
+        <label>Docker_Name</label>
+        <fieldForLabel>Container</fieldForLabel>
+        <fieldForValue>Container</fieldForValue>
+        <default>ansible</default>
+        <search>
+          <query>index="logging_levels2" Container=* | dedup Container sortby -time  | table Container</query>
+          <earliest>0</earliest>
+          <latest>now</latest>
+        </search>
+      </input>
+      <input type="dropdown" id="newLogLevel">
+        <label>Change To..</label>
+        <choice value="OFF">OFF</choice>
+        <choice value="ERROR">ERROR</choice>
+        <choice value="WARN">WARN</choice>
+        <choice value="INFO">INFO</choice>
+        <choice value="DEBUG">DEBUG</choice>
+        <choice value="TRACE">TRACE</choice>
+        <fieldForLabel>EffectiveLevel</fieldForLabel>
+        <fieldForValue>EffectiveLevel</fieldForValue>
+      </input>
+      <html>
+        <button id="force_change">Force Change</button>
+      </html>
+      <table>
+        <search>
+          <query>index="logging_levels2" Container=* EffectiveLevel=*
+          | dedup Container sortby -time
+          | table Container EffectiveLevel</query>
+          <earliest>0</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="count">50</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">none</option>
+        <option name="percentagesRow">false</option>
+        <option name="rowNumbers">false</option>
+        <option name="totalsRow">false</option>
+        <option name="wrap">true</option>
+      </table>
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <search>
+          <query>index="logging_levels2" Container=* EffectiveLevel=* | dedup Container sortby -time | table Container EffectiveLevel</query>
+          <earliest>0</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="count">50</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">none</option>
+        <option name="percentagesRow">false</option>
+        <option name="rowNumbers">false</option>
+        <option name="totalsRow">false</option>
+        <option name="wrap">true</option>
+      </table>
+    </panel>
+  </row>
+</dashboard>

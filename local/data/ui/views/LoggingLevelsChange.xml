@@ -1,0 +1,84 @@
+<dashboard script="loglevelchange.js" stylesheet="logconfigstyles.css"  hideAppBar="false" hideEdit="false" isDashboard="false">
+  <label>LoggingLevelsChange</label>
+  <row>
+    <panel>
+       <title>Docker Logging Level Force Change</title>
+      <html>
+        <select id="ContainerName">
+        <option value="ticket-management">ticket-management</option>
+        <option value="splunk">splunk</option>
+        <option value="rundeck-provision">rundeck-provision</option>
+        <option value="rundeck">rundeck</option>
+        <option value="rabbitmq-plgins">rabbitmq-plgins</option>
+        <option value="rabbitmq">rabbitmq</option>
+        <option value="plugin-standalone">plugin-standalone</option>
+        <option value="plugin-automation-rundeck">plugin-automation-rundeck</option>
+        <option value="plugin-automation-chatbot">plugin-automation-chatbot</option>
+        <option value="plugin-automation-camel">plugin-automation-camel</option>
+        <option value="notification">notification</option>
+        <option value="nginx">nginx</option>
+        <option value="monitoring-client">monitoring-client</option>
+        <option value="monitoring">monitoring</option>
+        <option value="mongo-provision">mongo-provision</option>
+        <option value="mlcore-train-worker">mlcore-train-worker</option>
+        <option value="mlcore-redis">mlcore-redis</option>
+        <option value="mlcore-predict-worker">mlcore-predict-worker</option>
+        <option value="mlcore-mongo">mlcore-mongo</option>
+        <option value="mlcore-master">mlcore-master</option>
+        <option value="mlcore-frontend">mlcore-frontend</option>
+        <option value="knowledgebase-client">knowledgebase-client</option>
+        <option value="knowledgebase">knowledgebase</option>
+        <option value="kb-hub">kb-hub</option>
+        <option value="identity-management-client">identity-management-client</option>
+        <option value="identity-management">identity-management</option>
+        <option value="gamification">gamification</option>
+        <option value="elasticsearch">elasticsearch</option>
+        <option value="consul">consul</option>
+        <option value="client">client</option>
+        <option value="chatbot-client">chatbot-client</option>
+        <option value="bot-hazelcast">bot-hazelcast</option>
+        <option value="bot">bot</option>
+        <option value="automation-worker">automation-worker</option>
+        <option value="automation-queue">automation-queue</option>
+        <option value="atr-postgres">atr-postgres</option>
+        <option value="atr-mongo">atr-mongo</option>
+        <option value="aqe-editor-client">aqe-editor-client</option>
+        <option value="ansible">ansible</option>
+        </select>
+      </html>
+      <html>
+        <select id="newLogLevel">
+        <option value="OFF">OFF</option>
+        <option value="ERROR">ERROR</option>
+        <option value="WARN">WARN</option>
+        <option value="INFO">INFO</option>
+        <option value="DEBUG">DEBUG</option>
+        <option value="TRACE">TRACE</option>
+        </select>
+      </html>
+      <html>
+        <button id="force_change">Force Change</button>
+      </html>
+
+    </panel>
+  </row>
+  <row>
+    <panel>
+      <table>
+        <search>
+          <query>index="logging_levels2" Container=* EffectiveLevel=* | dedup Container sortby -time | table Container EffectiveLevel</query>
+          <earliest>0</earliest>
+          <latest>now</latest>
+          <sampleRatio>1</sampleRatio>
+        </search>
+        <option name="count">50</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">none</option>
+        <option name="percentagesRow">false</option>
+        <option name="rowNumbers">false</option>
+        <option name="totalsRow">false</option>
+        <option name="wrap">true</option>
+      </table>
+    </panel>
+  </row>
+</dashboard>

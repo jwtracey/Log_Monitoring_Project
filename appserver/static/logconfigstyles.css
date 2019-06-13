@@ -1,0 +1,80 @@
+<style>
+.poll{
+text-align:center;
+
+}
+.popup-overlay{
+  /*Hides pop-up when there is no "active" class*/
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility:hidden;
+  background:#ffffff;
+  border:3px solid #666666;
+  width:70%;
+  height:60%;
+  z-index:2;
+}
+.popup-overlay.active{
+  /*displays pop-up when "active" class is present*/
+  visibility:visible;
+  text-align:center;
+}
+
+.popup-content {
+  /*Hides pop-up content when there is no "active" class */
+ visibility:hidden;
+ /*border: 1px solid #888;*/
+}
+
+.popup-content.active {
+  /*Shows pop-up content when "active" class is present */
+  visibility:visible;
+}
+
+.close{
+  position: fixed;
+  top: 0;
+  left: 0;
+
+}
+
+.host{
+  visibility:hidden;
+}
+
+.host.active {
+  /*Shows ticket type field when "host" is confirmed */
+  visibility:visible;
+}
+
+.restart{
+  visibility:hidden;
+}
+
+.restart.active {
+  /*Shows ticket type field when "host" is confirmed */
+  visibility:visible;
+}
+
+.badDetails{
+  visibility:hidden;
+}
+.badDetails.active {
+  /*Shows pop-up content when "active" class is present */
+  visibility:visible;
+}
+
+
+
+
+#host_name_1{
+  background-color:rgb(255, 255, 255);
+}
+
+#select-ticket{
+  background-color:rgb(255, 255, 255);
+}
+
+</style>

@@ -1,5 +1,23 @@
-import requests
+import sys
+sys.path.append('/Users/jwtracey/Library/Python/2.7/lib/python/site-packages')
+
+import logging
+import os
+import subprocess
+import cherrypy
+import ConfigParser
+import splunk
+#import splunk.bundle as bundle
+#import splunk.appserver.mrsparkle.controllers as controllers #controller- runs py script when a sensor triggers the controller
+#import splunk.appserver.mrsparkle.lib.util as util
+from splunk.appserver.mrsparkle.lib.decorators import expose_page
 import json
+import requests
+import datetime
+from json import dumps as dict_to_json
+from requests.auth import HTTPBasicAuth
+import csv
+
 
 
 #hardcoded variables need to be Changed
@@ -18,10 +36,20 @@ ATR_token = ATR_token_response['token']
 
 ticketSysHeaders = {'Accept': 'application/json', 'apiToken': ATR_token}
 
-#changing logging levels on swagger
+#class Controller(controllers.BaseController):
+    #@expose_page(must_login=False)
+    #def status(self, **kwargs):
+        #return "I am here: "
 
-Container = ContainerName
-EffectiveLevel = newLogLevel
+#../../custom/LoggingLevelsChange/loglevelEndpoint/changelogginglevel
+@expose_page(must_login=False, methods=['POST'])
+def changelogginglevel(self,**kwargs):
+    containerName = kwargs.get('ContainerName')
+    EffectiveLevel = kwargs.get('newLogLevel')
+    #changing logging levels on swagger
+    changeData = {"Name" : containerName, "effectiveLevel" : EffectiveLevel}
+    change = requests.post(Log_URL+containerName, data=json.dumps(changeData), headers=ticketSysHeaders, verify=False)
+    return self.render_json({'status':200,'message':"HitEndpoint","Name":ContainerName,"EffectiveLevel":EffectiveLevel})
 
-changeData = {"Name" : Container, "effectiveLevel" : EffectiveLevel}
-response = requests.post(Log_URL+Container, data=json.dumps(changeData), headers=ticketSysHeaders, verify=False)
+
+
