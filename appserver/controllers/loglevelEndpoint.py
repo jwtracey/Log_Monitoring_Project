@@ -47,7 +47,7 @@ class Controller(controllers.BaseController):
         EffectiveLevel = kwargs.get('newLogLevel')
         #changing logging levels on swagger
         changeData = {"Name" : ContainerName, "effectiveLevel" : EffectiveLevel}
-        r = requests.post(Log_URL+containerName, data=json.dumps(changeData), headers=ticketSysHeaders, verify=False)
+        #r = requests.post(Log_URL+containerName, data=json.dumps(changeData), headers=ticketSysHeaders, verify=False)
         return self.render_json({'status':200,'message':"HitEndpoint","Name":ContainerName,"EffectiveLevel":EffectiveLevel})
 
 
