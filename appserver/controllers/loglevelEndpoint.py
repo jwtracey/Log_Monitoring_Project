@@ -5,7 +5,6 @@ import logging
 import os
 import subprocess
 import cherrypy
-import ConfigParser
 import splunk
 #import splunk.bundle as bundle
 #import splunk.appserver.mrsparkle.controllers as controllers #controller- runs py script when a sensor triggers the controller
