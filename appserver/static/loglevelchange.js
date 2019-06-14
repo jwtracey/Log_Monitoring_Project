@@ -23,7 +23,7 @@ require([
         var sendin = $.post('../../custom/Log_Monitoring_Project/loglevelEndpoint/changelogginglevel', data,  function(response) {
             if(response.status == 200){
                 console.log(response.status)
-                console.log(response.json())
+                console.log(response.data)
                 alert("It worked!");
 
 
