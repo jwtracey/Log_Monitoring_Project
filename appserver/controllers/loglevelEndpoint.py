@@ -43,10 +43,10 @@ class Controller(controllers.BaseController):
 #../../custom/LoggingLevelsChange/loglevelEndpoint/changelogginglevel
     @expose_page(must_login=False, methods=['POST'])
     def changelogginglevel(self,**kwargs):
-        containerName = kwargs.get('ContainerName')
+        ContainerName = kwargs.get('ContainerName')
         EffectiveLevel = kwargs.get('newLogLevel')
         #changing logging levels on swagger
-        #changeData = {"Name" : containerName, "effectiveLevel" : EffectiveLevel}
+        #changeData = {"Name" : ContainerName, "effectiveLevel" : EffectiveLevel}
         #change = requests.post(Log_URL+containerName, data=json.dumps(changeData), headers=ticketSysHeaders, verify=False)
         return self.render_json({'status':200,'message':"HitEndpoint","Name":ContainerName,"EffectiveLevel":EffectiveLevel})
 
