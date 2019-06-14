@@ -5,6 +5,7 @@ import logging
 import os
 import subprocess
 import cherrypy
+import ConfigParser
 import splunk
 #import splunk.bundle as bundle
 #import splunk.appserver.mrsparkle.controllers as controllers #controller- runs py script when a sensor triggers the controller
@@ -16,7 +17,6 @@ import datetime
 from json import dumps as dict_to_json
 from requests.auth import HTTPBasicAuth
 import csv
-
 
 
 #hardcoded variables need to be Changed
