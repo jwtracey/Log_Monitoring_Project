@@ -5,7 +5,7 @@ import json
 #hardcoded variables need to be changed
 ATR_URL = "https://dh-ctrl-rm-atr.atrmywizard360.com/"
 ATR_User = "admin"
-ATR_Pass = "HYZWL3P48WFBWV1M"
+ATR_Pass = "Z0MP4ES7ZDHMBKZB"
 ATR_data = {'username': ATR_User,'password': ATR_Pass}
 Log_URL = ATR_URL + "atr-gateway/ticket-management/loggers/"
 ATR_auth_URL = ATR_URL + 'atr-gateway/identity-management/api/v1/auth/token'
