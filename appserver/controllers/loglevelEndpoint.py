@@ -22,7 +22,7 @@ import csv
 #hardcoded variables need to be Changed
 ATR_URL = "https://dh-controlroomdev.atrmywizard360.com/"
 ATR_User = "admin"
-ATR_Pass = "Z0MP4ES7ZDHMBKZB"
+ATR_Pass = "J3J6PPFJKQWE0KX7"
 ATR_data = {'username': ATR_User,'password': ATR_Pass}
 Log_URL = ATR_URL + "atr-gateway/ticket-management/loggers/"
 ATR_auth_URL = ATR_URL + 'atr-gateway/identity-management/api/v1/auth/token'
