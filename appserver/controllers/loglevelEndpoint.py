@@ -20,7 +20,7 @@ import csv
 
 
 #hardcoded variables need to be Changed
-ATR_URL = "https://dh-ctrl-rm-atr.atrmywizard360.com/"
+ATR_URL = "https://dh-controlroomdev.atrmywizard360.com/"
 ATR_User = "admin"
 ATR_Pass = "Z0MP4ES7ZDHMBKZB"
 ATR_data = {'username': ATR_User,'password': ATR_Pass}
